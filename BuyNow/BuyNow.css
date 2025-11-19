@@ -1,0 +1,238 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.navbar{
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo{
+  height: 48px;
+  max-height: 6vh;
+  margin: 0;
+}
+
+.right-nav{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.right-nav .link{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: bebas, sans-serif;
+  font-size: 0.95rem;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.buy-now{
+  background-color: #e11;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  font-family: bebas, sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+.footer {
+  background-color: #000;
+  color: #aaa;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.editions-section {
+  padding: 36px 16px;
+  background: #070707;
+  color: #fff;
+  text-align: center;
+}
+.editions-section .wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.editions-section h1 {
+  font-family: bebas, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  color: #ffd7a6;
+}
+.editions-lead {
+  color: #cfcfcf;
+  margin-bottom: 20px;
+}
+
+.edition-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.edition-card {
+  border-radius: 10px;
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 260px;
+}
+.edition-card.featured {
+  border: 2px solid rgba(255,215,106,0.14);
+}
+
+.edition-title {
+  margin: 0;
+  font-family: bebas, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.05rem;
+  color: #fff;
+}
+.edition-price {
+  font-weight: 700;
+  color: #ffd7a6;
+  font-size: 1.1rem;
+}
+
+.edition-features {
+  margin: 0;
+  padding-left: 1rem;
+  color: #d0d0d0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex: 1 1 auto;
+}
+
+.buy-button {
+  display: inline-block;
+  text-decoration: none;
+  background: #e11;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.available-on-platforms {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000; 
+  padding: 20px 0;
+}
+.available-on-platforms h2 {
+  font-family: bebas, sans-serif;
+  text-transform: uppercase;
+  color: #ffd7a6;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+.available-on-platforms .platforms {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.available-on-platforms .platform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+  background: #111;
+  padding: 10px;
+  border-radius: 6px;
+}
+.available-on-platforms .platform img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+.system-requirements {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #000; 
+  padding: 20px 0;
+}
+.system-requirements h2 {
+  font-family: bebas, sans-serif;
+  text-transform: uppercase;
+  color: #ffd7a6;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+.req-grid {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 0 12px;
+}
+.req-card {
+  background: #111; 
+  padding: 14px;
+  border-radius: 6px;
+  text-align: left;
+}
+.req-card h3 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-family: bebas, sans-serif;
+  font-size: 1rem;
+}
+.req-card ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
